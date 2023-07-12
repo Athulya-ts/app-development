@@ -1,0 +1,192 @@
+.NavBar{
+    background-color: #244D61;
+    height:65px;
+    position: fixed;
+    bottom:685px;
+    width: 100%;
+    right:0px;
+}
+.tabs{
+    color: #75e2ff;
+    display:inline;
+    position: relative;
+    top:15px;
+    padding:30px;
+    font-size: 20px;
+}
+div.tabs:hover,div.tabs:active{
+    color: #EAEBED;
+}
+.tabs {
+    border: none;
+    cursor: pointer;
+}
+.performance{
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    margin: 40px;
+    /* position: relative;
+    left : 20px; */
+    background-color: #eaebed;
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px #244D61;
+}
+.dropdown-content a {
+    color: #5689c0;
+    font-weight:normal;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    position:relative;
+    bottom:17px;
+}
+
+.dropdown-content a:hover {
+    background-color: #eaebed
+}
+.performance:hover .dropdown-content {
+    display: block;
+}
+i{
+    padding-left:8px;
+}
+#profile{
+    padding-left:25px;
+}
+@media screen and (max-height: 450px) {
+    .side-panel {padding-top: 15px;}
+    .side-panel a {font-size: 18px;}
+  }
+  .side-panel {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #244D61;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.side-panel a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #eaebed;
+    display: block;
+    /* transition: 0.3s; */
+}
+
+
+.close-side-bar {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px !important;
+    margin-left: 50px;
+}
+span{
+    position: relative;
+    top:15px;
+    right:1410px;
+}
+.footer{
+    background-color: #244D61;
+    height:140px;
+    position: fixed;
+    left:0px;
+    bottom:0px;
+    top:620px;
+    width: 100%;
+    right:100px;
+}
+div.footer-tags{
+    display:inline-block;
+    color: #eaebed;
+    font-size: 20px;
+}
+.footer-links{
+    display:block;
+    font-size:15px;
+    color: #eaebed;
+    text-decoration: none;
+}
+.company{
+    position: relative;
+    right:200px;
+    color: #75e2ff;
+    top:15px;
+}
+.legal{
+    position: relative;
+    color: #75e2ff;
+    left:200px;
+    bottom:5px;
+}
+.social{
+    position: relative;
+    color: #75e2ff;
+    top:15px;
+}
+
+.landing-page{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &::before {  
+      content: "";
+      background-image: url("https://www.hrmexam.com/wp-content/uploads/2020/04/How-Does-a-HR-Department-Affect-an-Organization.jpg");
+      background-attachment: fixed;
+      background-size: cover;
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+      opacity: 0.4;
+    }
+  }
+  /* .user{
+    height:100vh;
+    width:250px;
+    position: fixed;
+    top:60px;
+    bottom:140px;
+    left:1250px;
+    background-color:#244D61;
+} */
+h2{
+    color:#75e2ff;
+}
+#profile{
+    left:35px;
+}
+.profile-msg{
+    position: fixed;
+    top:250px;
+    left:1320px;
+}
+.profile-icon{
+    position: fixed;
+    bottom:50px;
+    left:1350px;
+    
+}
+  .user {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #244D61;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+} 
