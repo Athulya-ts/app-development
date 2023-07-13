@@ -1,0 +1,10 @@
+.directory-background table{
+    width:90%;
+    border:2px solid black;
+}
+h2{
+    color:#244D61;
+}
+.directory-background table>thead>tr>th{
+    background-color:#244D61;
+}
